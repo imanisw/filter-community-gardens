@@ -152,7 +152,37 @@ hr {
    font-style: italic;
    font-size: 12px;
  }
+.item{
+  display:none;
+}
 
+.item.active{
+  display:block;
+}
+
+.image {
+  min-width: 225px;
+  max-width: 325px;
+}
+
+.container{
+  max-width: 400px;
+  margin: 32px auto;
+  padding: 5px;
+}
+
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.addy{
+  text-align: center;
+}
+
+.containerfil{
+background-color: blue; 
+}
 /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE
 *********************************************************************/
